@@ -1,0 +1,33 @@
+# CODEOWNERS file for storage-frontend-930
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-data @Armor-test/squad-search @Armor-test/squad-ux
+
+# Directory ownership
+/internal/ @Armor-test/squad-apps @Armor-test/team-reporting @Armor-test/squad-frontend
+/utils/ @Armor-test/squad-reporting @Armor-test/squad-cache
+/assets/ @Armor-test/dept-logging @Armor-test/dept-identity @Armor-test/team-frontend
+/plugins/ @Armor-test/squad-qa @Armor-test/grp-integration
+/src/ @Armor-test/grp-integration @Armor-test/unit-devops
+/dist/ @Armor-test/grp-storage @Armor-test/squad-tooling
+/web/ @Armor-test/dept-reliability @Armor-test/grp-search @Armor-test/unit-design
+/app/ @Armor-test/squad-ml @Armor-test/team-reporting
+/lib/ @Armor-test/squad-qa @Armor-test/grp-ui
+/models/ @Armor-test/unit-devops @Armor-test/squad-qa
+
+# File type ownership
+*.cs @Armor-test/dept-api @Armor-test/squad-payments @Armor-test/squad-performance
+*.toml @Armor-test/squad-mobile @Armor-test/squad-cloud
+*.json @Armor-test/grp-payments @Armor-test/dept-billing
+*.xml @Armor-test/team-governance @Armor-test/squad-payments
+*.yaml @Armor-test/unit-test @Armor-test/dept-notifications @Armor-test/dept-security
+*.yml @Armor-test/grp-reporting @Armor-test/squad-api @Armor-test/squad-mobile
+*.gradle @Armor-test/squad-apps @Armor-test/squad-mobile
+*.ts @Armor-test/unit-design @Armor-test/team-frontend
+*.html @Armor-test/grp-reporting @Armor-test/unit-cloud @Armor-test/grp-search
+*.sql @Armor-test/squad-reporting @Armor-test/team-logging @Armor-test/dept-reporting
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
